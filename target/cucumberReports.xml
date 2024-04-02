@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.162" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Apollo 24/7 application" name="Clicking on cardiology Module" time="0.006">
+<system-out><![CDATA[
+Given I am on home page.....................................................passed
+When I clicked on consult module............................................passed
+And Navigated to consult page...............................................passed
+When Clicked on the cardiology specialist...................................passed
+Then Heart speacialists details is shown....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Apollo 24/7 application" name="Opting doctor for online session" time="0.001">
+<system-out><![CDATA[
+Given I am on home page.....................................................passed
+When I clicked on consult module............................................passed
+And Navigated to consult page...............................................passed
+When Clicked on the cardiology specialist...................................passed
+Then Heart speacialists details is shown....................................passed
+Given Available doctors are shown...........................................passed
+When The online and offline consulting is given.............................passed
+And Switch off the checkbox for visit doctor................................passed
+And Click on a profile with Trpti Deb.......................................passed
+And Click on digital consult................................................passed
+Then Appointment schedule is shown..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Apollo 24/7 application" name="Clicking on dermotology Module" time="0.001">
+<system-out><![CDATA[
+Given I am on home page.....................................................passed
+When I clicked on consult module............................................passed
+And Navigated to consult page...............................................passed
+When Clicked on the dermotology specialist..................................passed
+Then skin speacialists details is shown.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Apollo 24/7 application" name="Opting derm doctor for online session" time="0.002">
+<system-out><![CDATA[
+Given I am on home page.....................................................passed
+When I clicked on consult module............................................passed
+And Navigated to consult page...............................................passed
+When Clicked on the dermotology specialist..................................passed
+Then skin speacialists details is shown.....................................passed
+Given Available doctors are shown...........................................passed
+When The online and offline consulting is given.............................passed
+And Switch off the checkbox for visit doctor................................passed
+And Click on a profile with Dr. Bhavya Swarnkar.............................passed
+And Click on digital consult................................................passed
+Then Appointment schedule is shown..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Apollo 24/7 application" name="Doctor NotAvailable - Example #1.1" time="0.001">
+<system-out><![CDATA[
+Given I am on home page.....................................................passed
+When I clicked on consult module............................................passed
+And Navigated to consult page...............................................passed
+When clicked on Neurology module............................................passed
+And doctors list is shown...................................................passed
+And Switch off the checkbox for visit doctor................................passed
+And enter the doctor name "xyz" and enter...................................passed
+Then it shows doctor not available..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
